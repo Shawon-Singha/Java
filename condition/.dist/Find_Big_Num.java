@@ -9,10 +9,10 @@ public class Find_Big_Num
         int A,B;
          
         System.out.println("Enter the value of A:");
-        System.out.println("Enter the value of B:");
-
         A = sc.nextInt();
-        B = sc.nextINt();
+
+        System.out.println("Enter the value of B:");
+        B = sc.nextInt();
 
         if(A>B)
         {
