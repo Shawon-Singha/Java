@@ -11,8 +11,12 @@ public class Prime_number
 
         n = prime.nextInt();
 
+        // 0 and 1 are not prime numbers
+
         for(int i = 2; i<=n/2; i++)
         {
+            // if n is divisible by i, then n is not prime
+            // change flag to 1 for non-prime number
             if(n%i==0)
             {
                 count++;
