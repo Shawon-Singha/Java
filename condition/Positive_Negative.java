@@ -25,10 +25,5 @@ public class Positive_Negative
         sc.close();
     }
 
-    private void shawon()
 }
 
-private class singha
-{
-    
-}
