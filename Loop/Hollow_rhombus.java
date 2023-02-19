@@ -21,6 +21,8 @@ public class Hollow_rhombus
             for(int colno = 1; colno<=rows; colno++)
             {
                 if(colno == 1 || colno == rows || rowno == 1 || rowno == rows)
+                /*Think about 1st coloum only then last coloum. 
+                again thing about 1st row only then last row */
                 {
                     System.out.print("*");
                 }
