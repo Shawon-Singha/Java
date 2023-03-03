@@ -13,5 +13,6 @@ public class Exercise5
         int value2 = pro.nextInt();
 
         System.out.println(value1*value2);
+        pro.close();
     }
 }
