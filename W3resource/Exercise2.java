@@ -1,4 +1,4 @@
-public class B_Sum 
+public class Exercise2
 {
     public static void main(String[] args) 
     {

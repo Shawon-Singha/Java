@@ -1,4 +1,4 @@
-public class D_Arthematics 
+public class Exercise4
 {
     public static void main(String[] args) 
     {
