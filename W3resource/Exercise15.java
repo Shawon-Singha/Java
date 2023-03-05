@@ -4,12 +4,12 @@ public class Exercise15
     {
         int a=10,b = 20,temp;
 
-        System.out.println("Before swapping: a =  " +a +" b = "+ +b );
+        System.out.println("Before swapping: a =  "+a  +" b = "+  +b );
 
         temp = a;
         a = b;
         b = temp;
 
-        System.out.println("After swapping:a = " +a +" b ="+ +b);
+        System.out.println("After swapping:a = " +a  +" b ="+  +b);
     }
 }
