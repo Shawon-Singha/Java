@@ -5,7 +5,7 @@ public class Exercise19
     {
         Scanner ob1 = new Scanner(System.in);
 
-        System.out.println("Enter the decimal value :");
+        System.out.print("Enter the decimal value :");
         int value = ob1.nextInt();
         
         int []array = new int[20];
@@ -20,7 +20,7 @@ public class Exercise19
             i++;
         }
          
-        
+        System.out.print("Your binary value is :");
         for(int j = i-1; j>=0; j--)
         {
             System.out.print(array[j]);
