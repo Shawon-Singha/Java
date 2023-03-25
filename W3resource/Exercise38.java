@@ -12,22 +12,22 @@ public class Exercise38 {
 
         System.out.println("Enter a String :");
 
-        
-        char s1[] = ob1.nextLine().toCharArray();
+        String s = ob1.nextLine();
+        char s1[] = s.toCharArray();
 
-        for(int i = 0; i < s1.length(); i++) 
+        for(int i = 0; i < s.length(); i++) 
         {
            if(Character.isLetter(s1[i]))
            {
              letter ++;
            }
 
-           if(Character.isDigit(s1[i]))
+           else if(Character.isDigit(s1[i]))
            {
              number ++;
            }
 
-           if(Character.isSpaceChar(s1[i]))
+           else if(Character.isSpaceChar(s1[i]))
            {
             space ++;
            }

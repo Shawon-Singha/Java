@@ -5,9 +5,11 @@ public class Exercise37 {
         Scanner ob1 = new Scanner(System.in);
 
         System.out.println("Enter the String:");
-        char s1[] = ob1.nextLine().toCharArray();
+        String s =  ob1.nextLine(); 
+        char s1[] =s .toCharArray();
 
-        for (int i = s1.length() - 1; i >= 0; i--) {
+        for (int i = s.length() - 1; i >= 0; i--) 
+        {
             System.out.print(s1[i]);
         }
 
