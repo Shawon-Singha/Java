@@ -6,7 +6,7 @@ public class Exercise22
     {
         Scanner ob1 = new Scanner(System.in);
 
-        System.out.println("Enter your value:");
+        System.out.print("Enter your DECIMAL value:");
         int value = ob1.nextInt();
 
         int []array = new int[10];
@@ -17,12 +17,14 @@ public class Exercise22
             array[i] = value % 8;
             value = value / 8;
         }
+        
+        System.out.print("Your octal value is :");
 
         for(int j = i-1;j>=0;j--)
         {
             System.out.print(array[j]);
         }
 
-        ob1.close();
+    ob1.close();
     }
 }
