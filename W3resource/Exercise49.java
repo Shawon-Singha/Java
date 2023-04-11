@@ -10,5 +10,7 @@ public class Exercise49 {
 
         if(n % 2 == 0) System.out.println("1");
         else System.out.println("0");
+        
+        s.close();
     }
 }
