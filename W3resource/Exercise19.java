@@ -12,7 +12,6 @@ public class Exercise19
 
         int i = 0;
         
-
         while(value!=0)
         {
             array[i]= value % 2;
@@ -25,10 +24,6 @@ public class Exercise19
         {
             System.out.print(array[j]);
         }
-
-       
-
         ob1.close();
-
     }
 }
