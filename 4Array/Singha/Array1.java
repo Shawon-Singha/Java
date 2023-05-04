@@ -5,7 +5,7 @@ public class Array1 {
         int[] num; //array declaration.
         num = new int[5]; // array creation.
 
-        // int[] num = new num[10]; //array declaration and creation.
+        // int[] num = new int[10]; //array declaration and creation.
 
         num[0] = 10;
         num[1] = 20;
