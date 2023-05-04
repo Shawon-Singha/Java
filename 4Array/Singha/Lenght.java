@@ -5,7 +5,7 @@ public class Lenght {
         int[] num = new int[5];
 
         int len = num.length;
-        System.out.println(len);
+        System.out.println("Array size:"+len);
 
     }
 }
