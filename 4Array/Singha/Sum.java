@@ -27,5 +27,7 @@ public class Sum {
 
         double avg = sum / len;
         System.out.println("Average:" + avg);
+
+        ob.close();
     }
 }
