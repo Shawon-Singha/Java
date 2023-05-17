@@ -14,5 +14,7 @@ public class Main {
 
         System.out.println("Size of array: "+a.length);  // to find the length of arrayList
         */
+
+        
     }
 }
