@@ -19,6 +19,8 @@ public class Main2 {
             System.out.print(x +" ");
         }
 
+        
+
         // for remove all  arraylist
 
         number.removeAll(number);
@@ -26,5 +28,15 @@ public class Main2 {
         for(int x : number){
             System.out.println(" " + x +" ");
         }
+
+        number.clear(); //work as remove,clear all data
+        System.out.println("\nAfter clear arraylist: ");
+
+        boolean c = number.isEmpty(); //for check empty or not
+        System.out.println("Arratlist empty:" +c);
+
+
+        boolean d = number.contains(30); //check input number is available in arraylist.
+        System.out.println("\n" +d);
  }   
 }
