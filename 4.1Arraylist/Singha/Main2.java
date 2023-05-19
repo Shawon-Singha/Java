@@ -38,5 +38,21 @@ public class Main2 {
 
         boolean d = number.contains(30); //check input number is available in arraylist.
         System.out.println("\n" +d);
+
+        
+        ArrayList<Integer> numbber1 = new ArrayList<>();
+
+        numbber1.add(11);
+        numbber1.add(21);
+        numbber1.add(31);
+
+
+ 
+        int x = numbber1.indexOf(11);  //to see index.
+        System.out.println("the index of 1 is : "+x);
+
+
+        number.set(1, 12);
+
  }   
 }
