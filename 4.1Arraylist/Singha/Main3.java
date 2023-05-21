@@ -21,9 +21,21 @@ public class Main3 {
         number2.add(41);
         System.out.println("Array of number2 :" +number2);
 
-        number3.addAll(number1);
-
+        
+        number3.addAll(number1); // add other array value inside antoher array
         System.out.println("Array of number3 :" + number3);
+
+
+        boolean x =  number1.equals(number2);
+        System.out.println("Result : " +x);
+
+        boolean y =  number1.equals(number3);
+        System.out.println("Result : " +y);
+
+
+        boolean z =  number2.equals(number3);
+        System.out.println("Result : " +z);
+
     }
 }
 
