@@ -30,6 +30,7 @@ public class Munna {
         list.addLast("Tiger");  // at last, this value will be added
 
         System.out.println("\n"+list);
+         
 
         list.remove(4); // index '4' will be removed
         System.out.println("\n"+ list);
@@ -37,7 +38,8 @@ public class Munna {
         list.remove("Lion");  // just "Lion " will be deleted
         System.out.println(list);
 
-        list.removeAll(list);
+        // list.removeAll(list);
+        list.clear();  // both are same..
         System.out.println(list);
     }
 }
