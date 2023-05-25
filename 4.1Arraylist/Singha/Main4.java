@@ -21,7 +21,7 @@ public class Main4 {
 
 
         Collections.sort(number,Collections.reverseOrder());
-        /*first ascend value then reverse value,desending will be done */
+        /*desending will be done */
 
         System.out.println("After desending : "+number);
     }
