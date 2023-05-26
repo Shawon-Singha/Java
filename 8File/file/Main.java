@@ -4,16 +4,16 @@ import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
-        File dir = new File("Person"); //file created where this code available
+        File file = new File("Person"); //file created where this code available
        /*
         *  someone want to create file in another location,then
         * File dir = new File("Folder location");
         *  File dir = new File("C:/Users/User/OneDrive\Desktop/Person");
         */
         //File dir = new File("C:/Users/User/OneDrive/Desktop/Person");
-        dir.mkdir(); // directory is created.
+        file.mkdir(); // directory is created.
 
-        String path = dir.getAbsolutePath();
+        String path = file.getAbsolutePath();
         System.out.println(path);
 
         File file1 = new File("D:/Java/8File/Person/Student.txt"); //file under person folder
